@@ -1,0 +1,23 @@
+# เนื้อหาวิชาและไฟล์ส่วนตัว (ไม่เผยแพร่)
+Lecture/
+Lab/
+*.pdf
+
+# ผลลัพธ์ที่สร้างใหม่ได้จาก pipeline
+data/processed/
+*.db
+*.sqlite
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# Streamlit secrets และไฟล์ระบบ
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+desktop.ini
