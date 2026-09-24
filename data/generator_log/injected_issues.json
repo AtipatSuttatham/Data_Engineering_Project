@@ -1,0 +1,9633 @@
+{
+ "seed": 42,
+ "summary": {
+  "B1": 106,
+  "B2": 40,
+  "B3": 16,
+  "B4": 64,
+  "B5": 80,
+  "B6": 212,
+  "B7": 219,
+  "B8": 40,
+  "B9": 8,
+  "B10": 81,
+  "B11": 15,
+  "B12": 44,
+  "B13": 1,
+  "B14": 121,
+  "B15": 3,
+  "C1": 49,
+  "C2": 33,
+  "C3": 20
+ },
+ "issues": [
+  {
+   "issue_id": "B15",
+   "file": "thaphae_sales",
+   "date": "2026-05-12",
+   "bills_lost": 15
+  },
+  {
+   "issue_id": "B15",
+   "file": "thaphae_sales",
+   "date": "2026-05-13",
+   "bills_lost": 12
+  },
+  {
+   "issue_id": "B15",
+   "file": "thaphae_sales",
+   "date": "2026-05-27",
+   "bills_lost": 15
+  },
+  {
+   "issue_id": "C3",
+   "file": "cmu_sales",
+   "receipt_id": "2026010600003",
+   "qty": 25
+  },
+  {
+   "issue_id": "C3",
+   "file": "cmu_sales",
+   "receipt_id": "2026011900006",
+   "qty": 33
+  },
+  {
+   "issue_id": "C3",
+   "file": "cmu_sales",
+   "receipt_id": "2026051900001",
+   "qty": 30
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000691",
+   "qty": 22
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000867",
+   "qty": 26
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000889",
+   "qty": 30
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002380",
+   "qty": 31
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002506",
+   "qty": 33
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002567",
+   "qty": 39
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002755",
+   "qty": 27
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003508",
+   "qty": 32
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003912",
+   "qty": 38
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004003",
+   "qty": 27
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004124",
+   "qty": 33
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004889",
+   "qty": 36
+  },
+  {
+   "issue_id": "C3",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004935",
+   "qty": 40
+  },
+  {
+   "issue_id": "C3",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-55D1F1",
+   "qty": 34
+  },
+  {
+   "issue_id": "C3",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-4DF307",
+   "qty": 33
+  },
+  {
+   "issue_id": "C3",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-19E570",
+   "qty": 40
+  },
+  {
+   "issue_id": "C3",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-2FF7BA",
+   "qty": 29
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026010700008",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026010900006",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026011000001",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026011500004",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026012500003",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": -2.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026012500004",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026012900019",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026012900026",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026020900002",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026020900014",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026022400032",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026030800005",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026033100001",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026040800008",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026051200005",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026051300005",
+   "line_no": 3,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026060400001",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026060700004",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026060900016",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026061400011",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "cmu_sales",
+   "receipt_id": "2026062500018",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000003",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000113",
+   "line_no": 1,
+   "column": "qty",
+   "original": 3.0,
+   "injected": -3.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000169",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000298",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000381",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": -2.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000514",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": -2.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000548",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000580",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000825",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000851",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000957",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": -2.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001123",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001275",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001308",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001705",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001742",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002095",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002268",
+   "line_no": 1,
+   "column": "qty",
+   "original": 3.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002549",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002563",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002600",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002807",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002958",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003032",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003421",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003439",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003739",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003959",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": -2.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004019",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004218",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": -2.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004457",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004750",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004962",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-16CF9C",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-DA3ECC",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-0086EB",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-BB3F99",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-5D5A5E",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-D945B4",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-2FFD90",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": -2.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-CD2A66",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-13575B",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-C3D9CD",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-B6AAA1",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-9C0AEC",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8A3E18",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-34AD0E",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-153762",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-493B03",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-88D904",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-3E4134",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-ED1B13",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-0D53B9",
+   "line_no": 1,
+   "column": "qty",
+   "original": 3.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-203233",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-F93992",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-0751E3",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-9D8E1F",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-AD9E9B",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-4CD331",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": -1.0
+  },
+  {
+   "issue_id": "B10",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-3BD645",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 0.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026010500007",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026010700010",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026012700012",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026022000004",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026031200002",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026032600004",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026033100002",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026060600009",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026062000005",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026062800009",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026062900008",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "cmu_sales",
+   "receipt_id": "2026063000017",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000574",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001001",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001373",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001435",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001522",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001736",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002101",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002262",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002371",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002748",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003069",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003269",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003426",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003652",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": 200.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003753",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004466",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004954",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-CFFD78",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-6F3A24",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-5FC08A",
+   "line_no": 1,
+   "column": "qty",
+   "original": 3.0,
+   "injected": 300.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-2DEA8D",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-3F324E",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-370245",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-A7ABC5",
+   "line_no": 3,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-AD37CF",
+   "line_no": 3,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-CB73CA",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": 200.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-786D23",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-27D156",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-09E8ED",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-3E57C2",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-C2A99E",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-2059A0",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-753335",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": 200.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-726808",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-54ADA9",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-9D613B",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C1",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-A94B91",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": 100.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026011800011",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": 6000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026020600011",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": 6000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026021600008",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": 8500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026021800017",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": 5500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026030600011",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": 7000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026031800008",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": 5500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026031900011",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": 4500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026032500003",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": 7000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026032500004",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": 5500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026042700002",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": 5500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "cmu_sales",
+   "receipt_id": "2026062700006",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": 7500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000323",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": 6500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001196",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": 4500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001458",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": 6000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001579",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": 5000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001976",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": 6500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002050",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": 5500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002779",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": 4500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "nimman_sales",
+   "receipt_id": "NM-005020",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": 8500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-15F07B",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": 7500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8CFFD5",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": 6000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-D8B292",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": 6500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-67069E",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 80.0,
+   "injected": 8000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-4C6A7B",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": 6500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-C4D1F9",
+   "line_no": 3,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": 5500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8F8458",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": 5000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8FE0DF",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": 5500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8FE0DF",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": 5000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-CE8AD4",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": 5500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-ED03AB",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": 5500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-EAF701",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": 6000.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-67B0F7",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": 5500.0
+  },
+  {
+   "issue_id": "C2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-39742A",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": 7500.0
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000025",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000065",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000068",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000086",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000087",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000153",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000186",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000228",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000263",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000288",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000289",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000289",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000318",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000334",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000343",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000373",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000420",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000423",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000426",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000453",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000471",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000474",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000522",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000577",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000609",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000632",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000640",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000665",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 80.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000705",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000728",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000762",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000785",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000803",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000817",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 80.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000845",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000848",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000885",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000888",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000914",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000941",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000976",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001004",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001063",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001063",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001065",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001097",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001179",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001182",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001195",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001221",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001224",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001228",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001238",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001246",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001271",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001296",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001302",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001307",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001328",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001346",
+   "line_no": 3,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001367",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001368",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001374",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001414",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001428",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001431",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001488",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001490",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001525",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001544",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001623",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001643",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001646",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001669",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001686",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001705",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001722",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001762",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001807",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001827",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001882",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001922",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001932",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001936",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001937",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001977",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002079",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 40.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002083",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002129",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002141",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002156",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002161",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002166",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002192",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002202",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002238",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002240",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002277",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002329",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002381",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002385",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 40.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002409",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002410",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002412",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002419",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002453",
+   "line_no": 3,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002486",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002546",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002612",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002620",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002629",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002652",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002654",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002688",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002733",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002750",
+   "line_no": 3,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002770",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002786",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002818",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002851",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002855",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002885",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002937",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002944",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002954",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002971",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002988",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003018",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 80.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003048",
+   "line_no": 3,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003074",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003079",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003094",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003137",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003155",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003216",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003219",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003234",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003280",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003283",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003300",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003306",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003309",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003322",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003403",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003407",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003444",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003445",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003452",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003487",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003511",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003544",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003545",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003551",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003572",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003586",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003618",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003622",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003624",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 80.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003626",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003645",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003676",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003680",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003764",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003782",
+   "line_no": 3,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003800",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003852",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003853",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003875",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003881",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003887",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003890",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003930",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003933",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003935",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003945",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003971",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003991",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004011",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004023",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004048",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004104",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004105",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004126",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004128",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004153",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004158",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 80.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004185",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004198",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004225",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004288",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004318",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004332",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004385",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004422",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004453",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004470",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004479",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004491",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004538",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004544",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 65.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004589",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 85.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004612",
+   "line_no": 2,
+   "column": "unit_price",
+   "original": 50.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004644",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 60.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004689",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004816",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004828",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 70.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004842",
+   "line_no": 3,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004861",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004918",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 55.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004958",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 80.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004964",
+   "line_no": 1,
+   "column": "unit_price",
+   "original": 45.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B6",
+   "file": "nimman_sales",
+   "receipt_id": "NM-005009",
+   "line_no": 3,
+   "column": "unit_price",
+   "original": 75.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026010200004",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026010400003",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026010500014",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026010800002",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026010800009",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026011200008",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026011800002",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026011800003",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026012000026",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026012200009",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026012200012",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026012600009",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026012600019",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026013000005",
+   "line_no": 3,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026020200023",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026020200026",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026020200027",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026020600005",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026020600012",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026020700002",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026020900015",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026021200014",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026021500003",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026021600022",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026021600027",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026022500013",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026022600012",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026022800001",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026030200021",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026030600027",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026031000025",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026031000026",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026031100011",
+   "line_no": 2,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026031600017",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026031600024",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026031700004",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026031700012",
+   "line_no": 2,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026031700026",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026031900029",
+   "line_no": 2,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026032100001",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026032400008",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026040100002",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026040200006",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026040600004",
+   "line_no": 2,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026041200004",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026041700009",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026042100010",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026042200004",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026042300012",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026042900005",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026051500001",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026052100008",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026052400002",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026052900001",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026060100002",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026060200021",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026061000011",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026061200008",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026061500017",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026061800028",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026061900018",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026062100007",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026062200003",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026062300012",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026062400026",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026062600007",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026062700004",
+   "line_no": 2,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "cmu_sales",
+   "receipt_id": "2026062700005",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000106",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000326",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000349",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000352",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000390",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000428",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000432",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000436",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000440",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000480",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000520",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000554",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000695",
+   "line_no": 3,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000734",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000794",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000841",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000918",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000948",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001127",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001144",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001165",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001166",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001344",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001370",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001384",
+   "line_no": 2,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001397",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001446",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001455",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001467",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001560",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001568",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001580",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001648",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001799",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001849",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001862",
+   "line_no": 2,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001930",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001975",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002081",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002122",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002154",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002210",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002213",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002330",
+   "line_no": 2,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002471",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002527",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002528",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002633",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002899",
+   "line_no": 2,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002935",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003042",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003060",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003082",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003094",
+   "line_no": 2,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003101",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003121",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003210",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003214",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003313",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003436",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003519",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003563",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003603",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003609",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003637",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003664",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003704",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003837",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003937",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004010",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004129",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004135",
+   "line_no": 2,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004165",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004183",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004406",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004490",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004495",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004499",
+   "line_no": 2,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004586",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004714",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004716",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004719",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004764",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004821",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004939",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004973",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004980",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-005028",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "nimman_sales",
+   "receipt_id": "NM-005029",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-B7E60E",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-C32F6C",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8FC16F",
+   "line_no": 2,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-393832",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8844A8",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-66E072",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-6EAFD5",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8E15F9",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-BE4843",
+   "line_no": 2,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-D509EE",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-EB7925",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-D62303",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-80F5D7",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-93FF72",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-67A162",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-CC0FD8",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-6A8879",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-5C9B5D",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-7EEDBB",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-1F1A49",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-152FAC",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-9A1142",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-406E3B",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8CF5CA",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-98DF64",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-39DD3B",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-E3B078",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-E93D6A",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-D75F2F",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-67237B",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-BED5FD",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-E9A701",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-DF9244",
+   "line_no": 2,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-CB73CA",
+   "line_no": 2,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-642868",
+   "line_no": 3,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-AA8E5D",
+   "line_no": 2,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-816BA4",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-F91A22",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-3E20F2",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-E8DE03",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-9E34EF",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-1282AF",
+   "line_no": 2,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-27E043",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-0143A2",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-232105",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-CB4B65",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-FBD0ED",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-630F6E",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-5B58F1",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-1A749C",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-199BB9",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-6C3D40",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8C7111",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-FD263F",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-4D12F1",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-946B9C",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-755EDE",
+   "line_no": 1,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-01046C",
+   "line_no": 2,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-7D9873",
+   "line_no": 2,
+   "column": "size",
+   "original": "S",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-98D4E3",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-1C71F1",
+   "line_no": 1,
+   "column": "size",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B7",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-BE3563",
+   "line_no": 1,
+   "column": "size",
+   "original": "L",
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026010600018",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026010700004",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026010900035",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026011200012",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026011200020",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026011200021",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026012300017",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026012600005",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026020200004",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026020400006",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026020900005",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026021000008",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026021400004",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026021500019",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026021700002",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026021700011",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026021800019",
+   "line_no": 3,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026022400024",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026022500001",
+   "line_no": 1,
+   "column": "qty",
+   "original": 3.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026030100008",
+   "line_no": 3,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026030900024",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026031000001",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026031000003",
+   "line_no": 2,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026031300028",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026031400005",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026032600005",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026042200013",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026050600009",
+   "line_no": 1,
+   "column": "qty",
+   "original": 3.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026051400001",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026051400002",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026051900005",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026052700002",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026060500019",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026060500020",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026060800035",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026061100011",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026061800017",
+   "line_no": 1,
+   "column": "qty",
+   "original": 1.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026061900032",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026062100006",
+   "line_no": 1,
+   "column": "qty",
+   "original": 2.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B8",
+   "file": "cmu_sales",
+   "receipt_id": "2026062100008",
+   "line_no": 1,
+   "column": "qty",
+   "original": 3.0,
+   "injected": null
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010100001",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": "BROWNIE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010100012",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "คาราเมลมัคคิอาโต้",
+   "injected": "คาราเมลมัคคิอาโต้ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010200007",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "เอสเปรสโซ่",
+   "injected": "เอสเปรสโซ่ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010200017",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "เค้กช็อกโกแลต",
+   "injected": "CHOCOLATE CAKE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010300004",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": "brownie"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010400011",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": "brownie"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010500016",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": "brownie"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010600015",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "โกโก้",
+   "injected": "COCOA"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010800010",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "คาปูชิโน่",
+   "injected": "cappuccino"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010800016",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "แซนด์วิชแฮมชีส",
+   "injected": " แซนด์วิชแฮมชีส"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010800031",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "เค้กช็อกโกแลต",
+   "injected": "chocolate cake"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010900008",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "โกโก้",
+   "injected": " โกโก้"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026010900009",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "คาราเมลมัคคิอาโต้",
+   "injected": "คาราเมลมัคคิอาโต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026011200023",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "คาราเมลมัคคิอาโต้",
+   "injected": "คาราเมลมัคคิอาโต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026011400015",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "ลาเต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026011500001",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "เค้กช็อกโกแลต",
+   "injected": "เคกช็อกโกแลต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026011600002",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "latte"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026011600022",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": " มัทฉะลาเต้"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012000026",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": "matcha latte"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012100009",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "AMERICANO"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012200016",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": "CROISSANT"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012200021",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชาไทย",
+   "injected": " ชาไทย"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012400005",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชามะนาว",
+   "injected": "LEMON TEA"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012600012",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "เค้กช็อกโกแลต",
+   "injected": "เคกช็อกโกแลต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012600021",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชาไทย",
+   "injected": "ชาไทย "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012700017",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": " มัทฉะลาเต้"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012700018",
+   "line_no": 3,
+   "column": "menu_name",
+   "original": "ชาไทย",
+   "injected": " ชาไทย"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012900007",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "LATTE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026012900017",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "แซนด์วิชแฮมชีส",
+   "injected": "HAM CHEESE SANDWICH"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026013000014",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "คาราเมลมัคคิอาโต้",
+   "injected": "caramel macchiato"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026020200012",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "latte"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026020400022",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "โกโก้",
+   "injected": "โกโก้ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026020500011",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "เค้กช็อกโกแลต",
+   "injected": "CHOCOLATE CAKE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026020700001",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชาไทย",
+   "injected": " ชาไทย"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026020900026",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": "มัทฉะลาเต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021000016",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มอคค่า",
+   "injected": " มอคค่า"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021000018",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "อเมริกาโน่ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021100008",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชาไทย",
+   "injected": " ชาไทย"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021100011",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "นมสดคาราเมล",
+   "injected": "CARAMEL FRESH MILK"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021200004",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": " ครัวซองต์"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021200020",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชาไทย",
+   "injected": "thai tea"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021500007",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "คาราเมลมัคคิอาโต้",
+   "injected": "CARAMEL MACCHIATO"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021500015",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": "มัทฉะลาเต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021700005",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "AMERICANO"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021800004",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มอคค่า",
+   "injected": "มอคค่า "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021800006",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "แซนด์วิชแฮมชีส",
+   "injected": "แซนด์วิชแฮมชีส "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026021900025",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "คาปูชิโน่",
+   "injected": "cappuccino"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026022300021",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "โกโก้",
+   "injected": " โกโก้"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026022400023",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มอคค่า",
+   "injected": "mocha"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026022400036",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "คาปูชิโน่",
+   "injected": "CAPPUCCINO"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026022500003",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "ลาเต้ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026022600014",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "อเมริกาโน่ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026022600017",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "AMERICANO"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026022700001",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "เค้กช็อกโกแลต",
+   "injected": "CHOCOLATE CAKE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026022700027",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มอคค่า",
+   "injected": " มอคค่า"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026030400010",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "คาปูชิโน่",
+   "injected": "CAPPUCCINO"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026030400019",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชาไทย",
+   "injected": "THAI TEA"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026030500016",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "โกโก้",
+   "injected": "cocoa"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026030600013",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": "croissant"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026030800001",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "ลาเต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026030800008",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": "croissant"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026030900006",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": " ครัวซองต์"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026030900027",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "คาปูชิโน่",
+   "injected": " คาปูชิโน่"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026031100022",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": "MATCHA LATTE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026031300021",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": "บราวนี่ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026031500005",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "นมสดคาราเมล",
+   "injected": "นมสดคาราเมล "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026031600025",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": "ครัวซองต์ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026031700027",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": "brownie"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026031800003",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "LATTE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026032000004",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": " มัทฉะลาเต้"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026032000022",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": " บราวนี่"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026040600002",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชามะนาว",
+   "injected": "LEMON TEA"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026040700006",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "แซนด์วิชแฮมชีส",
+   "injected": "ham cheese sandwich"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026041000002",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "โกโก้",
+   "injected": "โกโก"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026041700008",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": "MATCHA LATTE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026041900002",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชาไทย",
+   "injected": " ชาไทย"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026042000004",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "เอสเปรสโซ่",
+   "injected": "เอสเปรสโซ่ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026042000007",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "คาราเมลมัคคิอาโต้",
+   "injected": "CARAMEL MACCHIATO"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026042200012",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชาไทย",
+   "injected": " ชาไทย"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026042300010",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": "มัทฉะลาเต้ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026042900007",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": "MATCHA LATTE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026043000007",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "โกโก้",
+   "injected": " โกโก้"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026050300002",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มอคค่า",
+   "injected": "MOCHA"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026050700009",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "คาราเมลมัคคิอาโต้",
+   "injected": "caramel macchiato"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026050800002",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "อเมริกาโน่ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026050800003",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": "CROISSANT"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026050800004",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": " ลาเต้"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026051300004",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "ลาเต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026051800002",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": " ครัวซองต์"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026052000016",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": " บราวนี่"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026052700006",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "โกโก้",
+   "injected": " โกโก้"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026052900002",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": " บราวนี่"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026060200018",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": " บราวนี่"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026060500007",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "โกโก้",
+   "injected": "โกโก"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026060500013",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มอคค่า",
+   "injected": "mocha"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026060600011",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "มัทฉะลาเต้",
+   "injected": "มัทฉะลาเต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026060800009",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ชาไทย",
+   "injected": " ชาไทย"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026060800017",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": "CROISSANT"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061000007",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": "croissant"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061200005",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "ลาเต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061200013",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "เอสเปรสโซ่",
+   "injected": "espresso"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061200019",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": "croissant"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061200026",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": " ครัวซองต์"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061300003",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "อเมริกาโน่ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061300010",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": " ลาเต้"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061300010",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "เค้กช็อกโกแลต",
+   "injected": "เคกช็อกโกแลต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061500008",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "ลาเต้ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061600002",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": "BROWNIE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061600006",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "คาราเมลมัคคิอาโต้",
+   "injected": "คาราเมลมัคคิอาโต้ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026061700017",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "americano"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026062000002",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "ครัวซองต์",
+   "injected": " ครัวซองต์"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026062100014",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "แซนด์วิชแฮมชีส",
+   "injected": "ham cheese sandwich"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026062200012",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "LATTE"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026062200025",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "เค้กช็อกโกแลต",
+   "injected": " เค้กช็อกโกแลต"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026062300006",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "อเมริกาโน่ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026062400001",
+   "line_no": 2,
+   "column": "menu_name",
+   "original": "บราวนี่",
+   "injected": "brownie"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026062400019",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": " อเมริกาโน่"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026062600004",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "อเมริกาโน่ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026062800007",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "คาปูชิโน่",
+   "injected": " คาปูชิโน่"
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026062900014",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "อเมริกาโน่",
+   "injected": "อเมริกาโน่ "
+  },
+  {
+   "issue_id": "B14",
+   "file": "cmu_sales",
+   "receipt_id": "2026063000004",
+   "line_no": 1,
+   "column": "menu_name",
+   "original": "ลาเต้",
+   "injected": "latte"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004240",
+   "column": "sale_datetime",
+   "original": "2026-05-30T12:55:00",
+   "injected": "2026-05-30T00:55:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000430",
+   "column": "sale_datetime",
+   "original": "2026-01-14T15:56:00",
+   "injected": "2026-01-14T02:56:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004858",
+   "column": "sale_datetime",
+   "original": "2026-06-22T08:59:00",
+   "injected": "2026-06-22T02:59:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004471",
+   "column": "sale_datetime",
+   "original": "2026-06-07T10:09:00",
+   "injected": "2026-06-07T04:09:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001074",
+   "column": "sale_datetime",
+   "original": "2026-02-06T09:57:00",
+   "injected": "2026-02-06T01:57:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002601",
+   "column": "sale_datetime",
+   "original": "2026-04-03T12:30:00",
+   "injected": "2026-04-03T01:30:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000398",
+   "column": "sale_datetime",
+   "original": "2026-01-13T14:08:00",
+   "injected": "2026-01-13T00:08:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003777",
+   "column": "sale_datetime",
+   "original": "2026-05-13T10:05:00",
+   "injected": "2026-05-13T03:05:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004743",
+   "column": "sale_datetime",
+   "original": "2026-06-18T11:03:00",
+   "injected": "2026-06-18T02:03:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000878",
+   "column": "sale_datetime",
+   "original": "2026-01-29T14:39:00",
+   "injected": "2026-01-29T02:39:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004912",
+   "column": "sale_datetime",
+   "original": "2026-06-24T07:23:00",
+   "injected": "2026-06-24T05:23:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001423",
+   "column": "sale_datetime",
+   "original": "2026-02-18T14:55:00",
+   "injected": "2026-02-18T05:55:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003484",
+   "column": "sale_datetime",
+   "original": "2026-05-03T12:15:00",
+   "injected": "2026-05-03T03:15:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001908",
+   "column": "sale_datetime",
+   "original": "2026-03-09T07:19:00",
+   "injected": "2026-03-09T05:19:00"
+  },
+  {
+   "issue_id": "B11",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001923",
+   "column": "sale_datetime",
+   "original": "2026-03-09T14:54:00",
+   "injected": "2026-03-09T03:54:00"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026061000027",
+   "column": "member_id",
+   "original": "M0496",
+   "injected": "MO496"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026061700003",
+   "column": "member_id",
+   "original": "M0678",
+   "injected": "M678"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003487",
+   "column": "member_id",
+   "original": "M0378",
+   "injected": "M9097"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026061200024",
+   "column": "member_id",
+   "original": "M0175",
+   "injected": "MO175"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000604",
+   "column": "member_id",
+   "original": "M0522",
+   "injected": "M9544"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026030400023",
+   "column": "member_id",
+   "original": "M0200",
+   "injected": "M200"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001909",
+   "column": "member_id",
+   "original": "M0046",
+   "injected": "M046"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004257",
+   "column": "member_id",
+   "original": "M0436",
+   "injected": "M436"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004572",
+   "column": "member_id",
+   "original": "M0081",
+   "injected": "M081"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003954",
+   "column": "member_id",
+   "original": "M0051",
+   "injected": "M051"
+  },
+  {
+   "issue_id": "B12",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-492DE4",
+   "column": "member_id",
+   "original": "M0025",
+   "injected": "MO025"
+  },
+  {
+   "issue_id": "B12",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-604449",
+   "column": "member_id",
+   "original": "M0613",
+   "injected": "MO613"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004852",
+   "column": "member_id",
+   "original": "M0203",
+   "injected": "M203"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026060200012",
+   "column": "member_id",
+   "original": "M0341",
+   "injected": "M341"
+  },
+  {
+   "issue_id": "B12",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-DDF081",
+   "column": "member_id",
+   "original": "M0048",
+   "injected": "MO048"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000858",
+   "column": "member_id",
+   "original": "M0199",
+   "injected": "MO199"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002760",
+   "column": "member_id",
+   "original": "M0731",
+   "injected": "M731"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003308",
+   "column": "member_id",
+   "original": "M0208",
+   "injected": "M208"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000247",
+   "column": "member_id",
+   "original": "M0316",
+   "injected": "M316"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026062800008",
+   "column": "member_id",
+   "original": "M0410",
+   "injected": "MO410"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026062800010",
+   "column": "member_id",
+   "original": "M0332",
+   "injected": "M9151"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004676",
+   "column": "member_id",
+   "original": "M0739",
+   "injected": "M9818"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026030900021",
+   "column": "member_id",
+   "original": "M0661",
+   "injected": "M9530"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000033",
+   "column": "member_id",
+   "original": "M0679",
+   "injected": "M9847"
+  },
+  {
+   "issue_id": "B12",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-15EC7F",
+   "column": "member_id",
+   "original": "M0519",
+   "injected": "MO519"
+  },
+  {
+   "issue_id": "B12",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8C9D67",
+   "column": "member_id",
+   "original": "M0098",
+   "injected": "MO098"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000036",
+   "column": "member_id",
+   "original": "M0681",
+   "injected": "M681"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001969",
+   "column": "member_id",
+   "original": "M0177",
+   "injected": "M177"
+  },
+  {
+   "issue_id": "B12",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-099F12",
+   "column": "member_id",
+   "original": "M0789",
+   "injected": "M789"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003662",
+   "column": "member_id",
+   "original": "M0181",
+   "injected": "M181"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001712",
+   "column": "member_id",
+   "original": "M0295",
+   "injected": "M9311"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000668",
+   "column": "member_id",
+   "original": "M0166",
+   "injected": "M166"
+  },
+  {
+   "issue_id": "B12",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-D25181",
+   "column": "member_id",
+   "original": "M0434",
+   "injected": "M9103"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026032000022",
+   "column": "member_id",
+   "original": "M0592",
+   "injected": "MO592"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-005059",
+   "column": "member_id",
+   "original": "M0642",
+   "injected": "M9292"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026020900023",
+   "column": "member_id",
+   "original": "M0137",
+   "injected": "M137"
+  },
+  {
+   "issue_id": "B12",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-10BE66",
+   "column": "member_id",
+   "original": "M0735",
+   "injected": "M9318"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001323",
+   "column": "member_id",
+   "original": "M0618",
+   "injected": "M618"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026051900007",
+   "column": "member_id",
+   "original": "M0555",
+   "injected": "MO555"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000545",
+   "column": "member_id",
+   "original": "M0268",
+   "injected": "MO268"
+  },
+  {
+   "issue_id": "B12",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-F874E4",
+   "column": "member_id",
+   "original": "M0573",
+   "injected": "M573"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001053",
+   "column": "member_id",
+   "original": "M0631",
+   "injected": "M631"
+  },
+  {
+   "issue_id": "B12",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003259",
+   "column": "member_id",
+   "original": "M0604",
+   "injected": "MO604"
+  },
+  {
+   "issue_id": "B12",
+   "file": "cmu_sales",
+   "receipt_id": "2026031200013",
+   "column": "member_id",
+   "original": "M0512",
+   "injected": "MO512"
+  },
+  {
+   "issue_id": "B9",
+   "file": "members",
+   "member_id": "M0122",
+   "column": "birth_year",
+   "original": 2006,
+   "injected": 2549
+  },
+  {
+   "issue_id": "B9",
+   "file": "members",
+   "member_id": "M0253",
+   "column": "birth_year",
+   "original": 2004,
+   "injected": 1876
+  },
+  {
+   "issue_id": "B9",
+   "file": "members",
+   "member_id": "M0300",
+   "column": "birth_year",
+   "original": 1992,
+   "injected": 2535
+  },
+  {
+   "issue_id": "B9",
+   "file": "members",
+   "member_id": "M0348",
+   "column": "birth_year",
+   "original": 1990,
+   "injected": 1876
+  },
+  {
+   "issue_id": "B9",
+   "file": "members",
+   "member_id": "M0357",
+   "column": "birth_year",
+   "original": 2008,
+   "injected": 2551
+  },
+  {
+   "issue_id": "B9",
+   "file": "members",
+   "member_id": "M0404",
+   "column": "birth_year",
+   "original": 2002,
+   "injected": 2031
+  },
+  {
+   "issue_id": "B9",
+   "file": "members",
+   "member_id": "M0462",
+   "column": "birth_year",
+   "original": 1993,
+   "injected": 2031
+  },
+  {
+   "issue_id": "B9",
+   "file": "members",
+   "member_id": "M0562",
+   "column": "birth_year",
+   "original": 1989,
+   "injected": 2031
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0003",
+   "column": "birth_year",
+   "original": 1995,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0007",
+   "column": "birth_year",
+   "original": 2005,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0011",
+   "column": "birth_year",
+   "original": 1989,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0018",
+   "column": "birth_year",
+   "original": 2002,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0037",
+   "column": "birth_year",
+   "original": 2003,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0053",
+   "column": "birth_year",
+   "original": 2008,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0055",
+   "column": "birth_year",
+   "original": 2001,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0066",
+   "column": "birth_year",
+   "original": 2003,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0071",
+   "column": "birth_year",
+   "original": 1993,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0084",
+   "column": "birth_year",
+   "original": 1994,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0088",
+   "column": "birth_year",
+   "original": 2006,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0089",
+   "column": "birth_year",
+   "original": 1996,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0091",
+   "column": "birth_year",
+   "original": 1995,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0107",
+   "column": "birth_year",
+   "original": 2001,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0112",
+   "column": "birth_year",
+   "original": 1999,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0113",
+   "column": "birth_year",
+   "original": 2005,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0117",
+   "column": "birth_year",
+   "original": 1987,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0121",
+   "column": "birth_year",
+   "original": 2008,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0153",
+   "column": "birth_year",
+   "original": 1985,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0157",
+   "column": "birth_year",
+   "original": 2008,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0165",
+   "column": "birth_year",
+   "original": 2007,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0176",
+   "column": "birth_year",
+   "original": 2004,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0179",
+   "column": "birth_year",
+   "original": 2005,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0182",
+   "column": "birth_year",
+   "original": 2007,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0191",
+   "column": "birth_year",
+   "original": 2004,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0200",
+   "column": "birth_year",
+   "original": 2008,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0205",
+   "column": "birth_year",
+   "original": 1983,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0248",
+   "column": "birth_year",
+   "original": 2001,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0260",
+   "column": "birth_year",
+   "original": 1994,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0264",
+   "column": "birth_year",
+   "original": 1989,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0285",
+   "column": "birth_year",
+   "original": 1995,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0299",
+   "column": "birth_year",
+   "original": 2002,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0301",
+   "column": "birth_year",
+   "original": 1980,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0325",
+   "column": "birth_year",
+   "original": 1989,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0353",
+   "column": "birth_year",
+   "original": 1989,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0358",
+   "column": "birth_year",
+   "original": 1995,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0361",
+   "column": "birth_year",
+   "original": 1979,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0368",
+   "column": "birth_year",
+   "original": 2004,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0379",
+   "column": "birth_year",
+   "original": 2003,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0388",
+   "column": "birth_year",
+   "original": 1979,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0401",
+   "column": "birth_year",
+   "original": 1995,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0402",
+   "column": "birth_year",
+   "original": 2002,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0421",
+   "column": "birth_year",
+   "original": 2006,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0424",
+   "column": "birth_year",
+   "original": 2004,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0432",
+   "column": "birth_year",
+   "original": 2005,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0441",
+   "column": "birth_year",
+   "original": 1990,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0444",
+   "column": "birth_year",
+   "original": 1991,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0451",
+   "column": "birth_year",
+   "original": 2003,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0460",
+   "column": "birth_year",
+   "original": 2005,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0463",
+   "column": "birth_year",
+   "original": 1994,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0513",
+   "column": "birth_year",
+   "original": 1988,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0538",
+   "column": "birth_year",
+   "original": 2000,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0540",
+   "column": "birth_year",
+   "original": 2003,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0548",
+   "column": "birth_year",
+   "original": 2008,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0569",
+   "column": "birth_year",
+   "original": 2004,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0580",
+   "column": "birth_year",
+   "original": 2005,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0588",
+   "column": "birth_year",
+   "original": 1995,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0591",
+   "column": "birth_year",
+   "original": 1982,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0608",
+   "column": "birth_year",
+   "original": 2005,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0617",
+   "column": "birth_year",
+   "original": 2008,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0624",
+   "column": "birth_year",
+   "original": 2006,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0635",
+   "column": "birth_year",
+   "original": 2001,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0636",
+   "column": "birth_year",
+   "original": 1986,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0642",
+   "column": "birth_year",
+   "original": 2006,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0649",
+   "column": "birth_year",
+   "original": 2006,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0665",
+   "column": "birth_year",
+   "original": 1996,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0667",
+   "column": "birth_year",
+   "original": 1992,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0676",
+   "column": "birth_year",
+   "original": 1993,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0679",
+   "column": "birth_year",
+   "original": 1980,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0702",
+   "column": "birth_year",
+   "original": 2002,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0707",
+   "column": "birth_year",
+   "original": 2004,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0714",
+   "column": "birth_year",
+   "original": 1987,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0723",
+   "column": "birth_year",
+   "original": 2003,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0731",
+   "column": "birth_year",
+   "original": 2008,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0733",
+   "column": "birth_year",
+   "original": 2004,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0734",
+   "column": "birth_year",
+   "original": 1981,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0741",
+   "column": "birth_year",
+   "original": 1999,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0747",
+   "column": "birth_year",
+   "original": 1977,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0769",
+   "column": "birth_year",
+   "original": 2004,
+   "injected": null
+  },
+  {
+   "issue_id": "B5",
+   "file": "members",
+   "member_id": "M0770",
+   "column": "birth_year",
+   "original": 1996,
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0036",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0049",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0062",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0068",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0072",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0073",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0076",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0079",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0089",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0100",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0129",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0130",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0132",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0148",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0150",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0178",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0182",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0190",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0194",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0228",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0235",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0248",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0262",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0265",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0270",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0305",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0322",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0334",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0361",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0365",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0371",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0375",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0419",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0430",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0468",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0519",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0520",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0538",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0544",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0546",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0556",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0558",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0562",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0572",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0575",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0581",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0583",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0607",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0658",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0675",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0677",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0686",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0706",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0708",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0710",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0711",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0713",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0714",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0731",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0762",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0764",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0765",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0770",
+   "column": "gender",
+   "original": "M",
+   "injected": null
+  },
+  {
+   "issue_id": "B4",
+   "file": "members",
+   "member_id": "M0771",
+   "column": "gender",
+   "original": "F",
+   "injected": null
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0801",
+   "duplicate_of": "M0066",
+   "column": "full_name",
+   "injected": "สมหญิง วงศ์ใหญ่ ",
+   "bills_using_new_id": 2
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0802",
+   "duplicate_of": "M0072",
+   "column": "full_name",
+   "injected": "ธิดารัตน์  สุวรรณรัตน์",
+   "bills_using_new_id": 2
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0803",
+   "duplicate_of": "M0104",
+   "column": "full_name",
+   "injected": " ปิยะดา ศรีวิชัย",
+   "bills_using_new_id": 1
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0804",
+   "duplicate_of": "M0124",
+   "column": "full_name",
+   "injected": "อนุชา  สมบูรณ์",
+   "bills_using_new_id": 1
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0805",
+   "duplicate_of": "M0125",
+   "column": "full_name",
+   "injected": " นันทนา ธรรมวงศ์",
+   "bills_using_new_id": 0
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0806",
+   "duplicate_of": "M0208",
+   "column": "full_name",
+   "injected": "กมลชนก ศักดิ์ดี ",
+   "bills_using_new_id": 1
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0807",
+   "duplicate_of": "M0246",
+   "column": "full_name",
+   "injected": " อัญชิสา มอรสิล",
+   "bills_using_new_id": 0
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0808",
+   "duplicate_of": "M0363",
+   "column": "full_name",
+   "injected": "เอกชัย ปัญญาดี ",
+   "bills_using_new_id": 1
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0809",
+   "duplicate_of": "M0411",
+   "column": "full_name",
+   "injected": "อัญชิสา ธรรมวงศ์ ",
+   "bills_using_new_id": 1
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0810",
+   "duplicate_of": "M0508",
+   "column": "full_name",
+   "injected": " พงศกร ยอดเมือง",
+   "bills_using_new_id": 2
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0811",
+   "duplicate_of": "M0555",
+   "column": "full_name",
+   "injected": "จิราพร ศักดิ์ดี ",
+   "bills_using_new_id": 2
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0812",
+   "duplicate_of": "M0603",
+   "column": "full_name",
+   "injected": "เอกชัย  ธรรมวงศ์",
+   "bills_using_new_id": 3
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0813",
+   "duplicate_of": "M0605",
+   "column": "full_name",
+   "injected": "ธนากร  แสงทอง",
+   "bills_using_new_id": 2
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0814",
+   "duplicate_of": "M0627",
+   "column": "full_name",
+   "injected": "สมหญิง พรหมมา ",
+   "bills_using_new_id": 3
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0815",
+   "duplicate_of": "M0705",
+   "column": "full_name",
+   "injected": "พิมพ์ชนก พรหมมา ",
+   "bills_using_new_id": 3
+  },
+  {
+   "issue_id": "B3",
+   "file": "members",
+   "member_id": "M0816",
+   "duplicate_of": "M0722",
+   "column": "full_name",
+   "injected": "เอกชัย คำมูล ",
+   "bills_using_new_id": 0
+  },
+  {
+   "issue_id": "B13",
+   "file": "members",
+   "column": "phone",
+   "rows": 816,
+   "note": "ทุกแถวสุ่ม 4 รูปแบบ"
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000019",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000027",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000047",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000242",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000252",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000271",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000291",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000306",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000481",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000515",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000523",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000561",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000593",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000610",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000669",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000680",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000715",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000832",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000870",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000875",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000954",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000955",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-000978",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001021",
+   "line_no": 3
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001084",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001158",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001247",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001269",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001271",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001307",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001498",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001532",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-001645",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002116",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002217",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002246",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002297",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002371",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002583",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002607",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002641",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002704",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002770",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002779",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002839",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002853",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002890",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002922",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002926",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002941",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-002970",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003030",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003058",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003067",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003087",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003092",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003098",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003126",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003191",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003264",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003280",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003293",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003303",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003335",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003385",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003431",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003477",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003576",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003591",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003603",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003757",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003817",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003817",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003858",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003878",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-003938",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004008",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004162",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004163",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004190",
+   "line_no": 3
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004194",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004236",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004293",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004301",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004361",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004403",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004425",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004428",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004455",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004546",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004553",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004568",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004599",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004671",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004840",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004847",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004913",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004918",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004923",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004939",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004943",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-004958",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-005009",
+   "line_no": 3
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-005042",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-005072",
+   "line_no": 2
+  },
+  {
+   "issue_id": "B1",
+   "file": "nimman_sales",
+   "receipt_id": "NM-005088",
+   "line_no": 1
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-84EAAD"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8BFDC7"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-AF1E5C"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-0F58B5"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-B1A15F"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-D590BF"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-D74653"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-A23349"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-A2F9F1"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-DD7D5F"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-516BEA"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-216B8D"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-0086EB"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-CFEBA3"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-2C8396"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-711916"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-F4D624"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-FC0449"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-4944C9"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-ED8513"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-8B25A7"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-4394D1"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-1459C5"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-ACB121"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-55606F"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-CE37DC"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-B2FC27"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-BFCFDF"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-7961C7"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-B91CA6"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-49AA55"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-D98D38"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-43C63A"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-516718"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-1DFFE1"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-11A50F"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-833E65"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-89F55E"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-669EAB"
+  },
+  {
+   "issue_id": "B2",
+   "file": "thaphae_sales",
+   "receipt_id": "TP-CDB2D2"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+﻿product_id,name_th,name_en,category,nimman_code,thaphae_sku,price_S,price_M,price_L,price_nosize
+P01,เอสเปรสโซ่,Espresso,coffee,C01,DB-COF-ESP,45,55,65,
+P02,อเมริกาโน่,Americano,coffee,C02,DB-COF-AME,45,55,65,
+P03,ลาเต้,Latte,coffee,C03,DB-COF-LAT,55,65,75,
+P04,คาปูชิโน่,Cappuccino,coffee,C04,DB-COF-CAP,55,65,75,
+P05,มอคค่า,Mocha,coffee,C05,DB-COF-MOC,60,70,80,
+P06,คาราเมลมัคคิอาโต้,Caramel Macchiato,coffee,C06,DB-COF-CMA,65,75,85,
+P07,ชาไทย,Thai Tea,non_coffee,T01,DB-TEA-THA,45,55,65,
+P08,มัทฉะลาเต้,Matcha Latte,non_coffee,T02,DB-TEA-MAT,60,70,80,
+P09,ชามะนาว,Lemon Tea,non_coffee,T03,DB-TEA-LEM,40,50,60,
+P10,โกโก้,Cocoa,non_coffee,T04,DB-OTH-COC,50,60,70,
+P11,นมสดคาราเมล,Caramel Fresh Milk,non_coffee,T05,DB-OTH-CFM,50,60,70,
+P12,ครัวซองต์,Croissant,bakery,B01,DB-BAK-CRO,,,,55
+P13,บราวนี่,Brownie,bakery,B02,DB-BAK-BRO,,,,50
+P14,เค้กช็อกโกแลต,Chocolate Cake,bakery,B03,DB-BAK-CHC,,,,85
+P15,แซนด์วิชแฮมชีส,Ham Cheese Sandwich,bakery,B04,DB-BAK-HCS,,,,75
