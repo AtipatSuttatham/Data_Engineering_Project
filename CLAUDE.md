@@ -57,7 +57,7 @@ data engineering project/          ← root ของ git repo
 ├── requirements.txt
 ├── data_generator/generate.py     [โมดูล 1] สร้างข้อมูลสมมุติ + ใส่ปัญหา
 ├── data/raw/                      ข้อมูลดิบ 3 สาขา + สมาชิก + รหัสสินค้า
-├── data/processed/                ผลลัพธ์ (ไม่ commit)
+├── data/processed/                ผลลัพธ์ (ไม่ commit) เช่น sales_staging.csv, sales_clean.csv, transform/*.csv
 ├── pipeline/
 │   ├── extract.py                 [โมดูล 2] อ่านไฟล์ + Schema mapping + แปลงค่ากลุ่ม A + Integration → staging
 │   ├── quality.py                 [โมดูล 3] วัดคุณภาพ 6 มิติ
@@ -67,6 +67,7 @@ data engineering project/          ← root ของ git repo
 │   ├── recommend.py               [โมดูล 7] Recommendation
 │   └── forecast.py                [โมดูล 8] Regression
 ├── app.py                         [โมดูล 9] หน้าเว็บ Streamlit
+├── evaluation/                    วัดความแม่นของ pipeline เทียบกับเฉลย (อ่าน data/generator_log/ ได้ แยกจาก pipeline)
 ├── tests/                         pytest แบบเบา (เขียนคู่กับแต่ละโมดูล)
 ├── docs/
 │   ├── data_issues.md             รายการปัญหาที่ใส่ในข้อมูล (จากโมดูล 1)
@@ -95,7 +96,7 @@ data engineering project/          ← root ของ git repo
 - รูปแบบต่างกันตามสาขา: นิมมาน = CSV, มช. = Excel, ท่าแพ = JSON (ซ้อนหลายชั้น) + ไฟล์สมาชิก + ตารางรหัสสินค้า
 - ปัญหาที่ใส่ในข้อมูลต้อง**สมจริง** และบันทึกใน `docs/data_issues.md` ทุกรายการ ระบุ: ปัญหาอะไร, อยู่ในไฟล์หรือคอลัมน์ไหน, จำนวนประมาณเท่าไร, จะแก้ด้วยเทคนิคอะไร
 - ห้ามใช้ข้อมูลส่วนบุคคลจริง ชื่อและเบอร์โทรต้องสร้างขึ้นเอง
-- **`data/generator_log/` คือไฟล์เฉลย** (รายการปัญหาที่ใส่ + ข้อมูลสะอาด) **โค้ดใน `pipeline/` และ `app.py` ห้ามอ่านไฟล์ในโฟลเดอร์นี้เด็ดขาด** ให้ใช้เฉพาะใน `tests/` และตอนวัดความแม่นของ pipeline เพื่อไม่ให้ผลลัพธ์ดูเหมือนโกง และให้ผลวัดความแม่นมีความหมาย
+- **`data/generator_log/` คือไฟล์เฉลย** (รายการปัญหาที่ใส่ + ข้อมูลสะอาด) **โค้ดใน `pipeline/` และ `app.py` ห้ามอ่านไฟล์ในโฟลเดอร์นี้เด็ดขาด** ให้ใช้เฉพาะใน `tests/` และ `evaluation/` (วัดความแม่นของ pipeline) เพื่อไม่ให้ผลลัพธ์ดูเหมือนโกง และให้ผลวัดความแม่นมีความหมาย
 
 ## 8. บันทึกสำหรับเล่มรายงาน
 
