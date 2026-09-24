@@ -41,6 +41,8 @@ VOLATILITY_DAYS = 7                    # ข้อมูลยอดขายใ
 DEFAULT_RECEIVED_AT = pd.Timestamp("2026-07-01 07:05", tz=extract.TZ)  # วันที่รับข้อมูล (ถ้าไฟล์ไม่ระบุ)
 TARGET = 0.98                          # เป้าหมายคะแนนของทุกมิติ
 PHONE_STANDARD = r"^0\d{9}$"           # รูปแบบเบอร์โทรมาตรฐาน 0XXXXXXXXX
+GENDER_UNKNOWN = "U"                   # หมวด "ไม่ระบุ" (ใช้ในโมดูล 4 แทนการเดาเพศ)
+GENDER_DOMAIN = ["M", "F", GENDER_UNKNOWN]
 PRICE_TOLERANCE = 0.01                 # ราคาคลาดจากตารางไม่เกิน 1 สตางค์ถือว่าตรง (เผื่อทศนิยมจากการหาร)
 
 DIMENSIONS = ["Completeness", "Uniqueness", "Validity", "Consistency", "Accuracy", "Timeliness"]
@@ -131,7 +133,8 @@ def cp4_drink_size(ctx):
 
 
 def cp5_gender(ctx):
-    return ctx.members["gender"].isna()
+    # "U" (ไม่ระบุ) ที่โมดูล 4 ใส่แทนค่าว่าง ยังนับว่า "ไม่มีข้อมูล" เพราะเราไม่ได้รู้เพศเพิ่มขึ้นจริง
+    return ctx.members["gender"].isna() | (ctx.members["gender"] == GENDER_UNKNOWN)
 
 
 def cp6_birth_year(ctx):
@@ -197,7 +200,7 @@ def vl4_age(ctx):
 
 
 def vl5_gender_domain(ctx):
-    return ~ctx.members["gender"].dropna().isin(["M", "F"])
+    return ~ctx.members["gender"].dropna().isin(GENDER_DOMAIN)
 
 
 # ---- Consistency ----
@@ -238,7 +241,7 @@ RULES: list[Rule] = [
     Rule("CP2", "Completeness", "sales", "ราคาต่อชิ้นต้องไม่ว่าง", cp2_unit_price),
     Rule("CP3", "Completeness", "sales", "จำนวนต้องไม่ว่าง", cp3_qty),
     Rule("CP4", "Completeness", "sales", "เครื่องดื่มต้องมีขนาดแก้ว (เบเกอรี่ไม่ต้องมี)", cp4_drink_size),
-    Rule("CP5", "Completeness", "members", "เพศต้องไม่ว่าง", cp5_gender),
+    Rule("CP5", "Completeness", "members", "ต้องทราบเพศ (ว่าง หรือ U = ไม่ทราบ)", cp5_gender),
     Rule("CP6", "Completeness", "members", "ปีเกิดต้องไม่ว่าง", cp6_birth_year),
     Rule("CP7", "Completeness", "branch-days", "ทุกสาขาต้องมียอดขายทุกวัน (Population completeness)", cp7_branch_days),
     Rule("UQ1", "Uniqueness", "sales", "ไม่มีแถวซ้ำทุกคอลัมน์", uq1_duplicate_rows),
@@ -249,7 +252,7 @@ RULES: list[Rule] = [
     Rule("VL2", "Validity", "sales", f"เวลาขายต้องอยู่ในเวลาเปิดร้าน {OPEN_HOUR:02d}:00-{CLOSE_HOUR:02d}:00", vl2_opening_hours),
     Rule("VL3", "Validity", "sales", "วันที่ขายต้องอยู่ในช่วงข้อมูล 1 ม.ค.-30 มิ.ย. 2569", vl3_period),
     Rule("VL4", "Validity", "members", f"อายุต้องอยู่ระหว่าง {AGE_MIN}-{AGE_MAX} ปี", vl4_age),
-    Rule("VL5", "Validity", "members", "เพศต้องเป็น M หรือ F", vl5_gender_domain),
+    Rule("VL5", "Validity", "members", "เพศต้องเป็น M, F หรือ U (ไม่ระบุ)", vl5_gender_domain),
     Rule("CS1", "Consistency", "sales", "สินค้าต้องมีอยู่ในตารางสินค้าหลัก", cs1_product_in_master),
     Rule("CS2", "Consistency", "sales", "รหัสสมาชิกในบิลต้องมีอยู่ในตารางสมาชิก", cs2_member_in_members),
     Rule("CS3", "Consistency", "members", "เบอร์โทรต้องเป็นรูปแบบเดียวกัน (0XXXXXXXXX)", cs3_phone_format),
