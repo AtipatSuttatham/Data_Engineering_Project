@@ -59,10 +59,10 @@ data engineering project/          ← root ของ git repo
 ├── data/raw/                      ข้อมูลดิบ 3 สาขา + สมาชิก + รหัสสินค้า
 ├── data/processed/                ผลลัพธ์ (ไม่ commit)
 ├── pipeline/
-│   ├── extract.py                 [โมดูล 2] อ่านไฟล์ + Integration
+│   ├── extract.py                 [โมดูล 2] อ่านไฟล์ + Schema mapping + แปลงค่ากลุ่ม A + Integration → staging
 │   ├── quality.py                 [โมดูล 3] วัดคุณภาพ 6 มิติ
-│   ├── clean.py                   [โมดูล 4] ข้อมูลซ้ำ, validity, ค่าว่าง, outlier
-│   ├── transform.py               [โมดูล 5] mapping, สร้างคอลัมน์ใหม่, encoding, normalization, anonymization
+│   ├── clean.py                   [โมดูล 4] ข้อมูลซ้ำ, validity, ค่าว่าง, outlier, ชื่อเมนูสะกดผิด (กลุ่ม B, C)
+│   ├── transform.py               [โมดูล 5] enrichment, สร้างคอลัมน์ใหม่, discretization, encoding, normalization, anonymization, aggregation
 │   ├── load.py                    [โมดูล 6] โหลดเข้า SQLite + ตรวจสอบหลังโหลด
 │   ├── recommend.py               [โมดูล 7] Recommendation
 │   └── forecast.py                [โมดูล 8] Regression
@@ -75,6 +75,8 @@ data engineering project/          ← root ของ git repo
 ```
 
 [โมดูล 10] README + requirements + ตรวจว่ารันจาก clone ใหม่ได้
+
+**หลักแบ่งงานระหว่างโมดูล:** ปัญหากลุ่ม A (ต่างกันทั้งไฟล์อย่างเป็นระบบ) แก้ในโมดูล 2 / ปัญหากลุ่ม B, C (ผิดบางแถว) โมดูล 2 ห้ามแตะ ให้โมดูล 3 วัด แล้วโมดูล 4 แก้ ถ้าโมดูล 2 แปลงค่าไม่ได้ ให้ปล่อยว่าง เก็บค่าดิบไว้ และติดธงใน `extract_flags`
 
 ## 6. กฎการเขียนโค้ด
 
