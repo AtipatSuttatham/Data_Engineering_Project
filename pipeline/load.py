@@ -157,6 +157,11 @@ LOG_DDL = """
 DIMENSIONS = ["dim_date", "dim_branch", "dim_product", "dim_member"]
 LOAD_ORDER = DIMENSIONS + ["fact_sales"] + list(ANALYTIC_PK)
 
+# ตารางผลลัพธ์ของโมเดล (โมดูล 7, 8) สร้างจากข้อมูลในฐานข้อมูลนี้และมี Foreign key อ้างถึง dimension
+# ต้องลบก่อนสร้าง schema ใหม่ ไม่งั้น SQLite ไม่ยอมลบ dimension ที่ยังถูกอ้างถึง
+# (หลังโหลดข้อมูลใหม่ ผลลัพธ์ของโมเดลก็ล้าสมัยอยู่แล้ว ต้องรันโมดูล 7, 8 ใหม่)
+DERIVED_TABLES = ["reco_rules"]
+
 
 def _sqlite_type(s: pd.Series) -> str:
     if pd.api.types.is_bool_dtype(s) or pd.api.types.is_integer_dtype(s):
@@ -182,6 +187,8 @@ def create_schema(con: sqlite3.Connection, tables: dict) -> None:
     """สร้างตารางใหม่ทั้งหมด (ตารางประวัติการโหลดเก็บไว้ ไม่ลบ)"""
     for v in VIEWS:
         con.execute(f"DROP VIEW IF EXISTS {v}")
+    for t in DERIVED_TABLES:
+        con.execute(f"DROP TABLE IF EXISTS {t}")
     for t in reversed(LOAD_ORDER):
         con.execute(f"DROP TABLE IF EXISTS {t}")
     for t in DIMENSIONS + ["fact_sales"]:
