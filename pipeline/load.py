@@ -160,7 +160,7 @@ LOAD_ORDER = DIMENSIONS + ["fact_sales"] + list(ANALYTIC_PK)
 # ตารางผลลัพธ์ของโมเดล (โมดูล 7, 8) สร้างจากข้อมูลในฐานข้อมูลนี้และมี Foreign key อ้างถึง dimension
 # ต้องลบก่อนสร้าง schema ใหม่ ไม่งั้น SQLite ไม่ยอมลบ dimension ที่ยังถูกอ้างถึง
 # (หลังโหลดข้อมูลใหม่ ผลลัพธ์ของโมเดลก็ล้าสมัยอยู่แล้ว ต้องรันโมดูล 7, 8 ใหม่)
-DERIVED_TABLES = ["reco_rules"]
+DERIVED_TABLES = ["reco_rules", "forecast_daily", "forecast_coefficients", "forecast_next_week"]
 
 
 def _sqlite_type(s: pd.Series) -> str:
