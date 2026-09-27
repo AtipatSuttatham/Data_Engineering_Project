@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="40" viewBox="0 0 190 40">
+  <rect x="2" y="3" width="34" height="34" rx="10" fill="#1B1916"/>
+  <path d="M10 16h15v5a6.5 6.5 0 0 1-6.5 6.5h-2A6.5 6.5 0 0 1 10 21z" fill="none" stroke="#F3E9DF" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M25 18h1.5a2.5 2.5 0 0 1 0 5H25" fill="none" stroke="#F3E9DF" stroke-width="2.2"/>
+  <path d="M15 10.5c0 1.5 1.5 1.5 1.5 3M19.5 10.5c0 1.5 1.5 1.5 1.5 3" fill="none" stroke="#C8925E" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="46" y="27" font-family="Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1B1916">Doi Brew</text>
+</svg>
