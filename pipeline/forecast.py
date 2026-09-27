@@ -17,6 +17,7 @@
 
 from __future__ import annotations
 
+import sys
 from contextlib import closing
 from pathlib import Path
 
@@ -266,6 +267,7 @@ def run_forecast(db_path: Path = load.DB_PATH, save: bool = True) -> dict:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")   # พิมพ์ภาษาไทยได้แม้ส่งผลลัพธ์ไปไฟล์หรือ pipe บน Windows
     pd.set_option("display.width", 220)
     pd.set_option("display.max_colwidth", 45)
     res = run_forecast()

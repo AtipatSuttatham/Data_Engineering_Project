@@ -1,0 +1,11 @@
+# Doi Brew ETL - libraries actually imported by the project (exact versions for reproducible results)
+# Tested on Python 3.13 and 3.11 (requires Python 3.11+). Install: python -m pip install -r requirements.txt
+# NOTE: keep this file ASCII only. Older pip (e.g. 22.3 bundled with Python 3.11.0) reads it
+#       with the Windows default encoding (cp1252) and crashes on Thai characters.
+pandas==2.3.3
+numpy==2.3.3
+scikit-learn==1.7.2
+plotly==7.1.0
+streamlit==1.64.0
+openpyxl==3.1.5
+pytest==8.4.2

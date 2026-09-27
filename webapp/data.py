@@ -21,7 +21,7 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-from pipeline import clean, extract, forecast, load, recommend, transform
+from pipeline import clean, extract, forecast, load, recommend, run_all, transform
 
 ROOT = Path(__file__).resolve().parents[1]
 # ตั้งค่าผ่าน environment variable ได้ (ใช้ใน tests เพื่อไม่แตะไฟล์จริง)
@@ -52,28 +52,16 @@ def db_version(db_path: Path) -> float:
 
 
 # ---------------------------------------------------------------------------
-# รัน pipeline ทั้งสาย (โมดูล 2 -> 8)
+# รัน pipeline ทั้งสาย (โมดูล 2 -> 8) ใช้ฟังก์ชันเดียวกับคำสั่ง py -3.13 -m pipeline.run_all
 # ---------------------------------------------------------------------------
-PIPELINE_STEPS = ["Extract (โมดูล 2)", "Quality + Cleaning (โมดูล 3-4)", "Transform (โมดูล 5)",
-                  "Load เข้า SQLite (โมดูล 6)", "Recommendation (โมดูล 7)", "Forecast (โมดูล 8)"]
+PIPELINE_STEPS = run_all.STEPS
 
 
-def run_full_pipeline(raw_dir: Path, db_path: Path, on_step=None) -> None:
-    """รันทุกขั้นตามลำดับ on_step(i, ชื่อขั้น) ใช้แสดงแถบความคืบหน้าบนหน้าเว็บ"""
-    step = on_step or (lambda i, name: None)
-    step(0, PIPELINE_STEPS[0])
-    ext = extract.run_extract(raw_dir=raw_dir, save=False)
-    step(1, PIPELINE_STEPS[1])
-    cleaned = clean.run_clean(save=False, ext=ext)
-    step(2, PIPELINE_STEPS[2])
-    tables = transform.run_transform(save=False, cleaned=cleaned)
-    step(3, PIPELINE_STEPS[3])
-    load.run_load(transformed=tables, db_path=db_path)
-    step(4, PIPELINE_STEPS[4])
-    recommend.run_recommend(db_path=db_path, save=True)
-    step(5, PIPELINE_STEPS[5])
-    forecast.run_forecast(db_path=db_path, save=True)
+def run_full_pipeline(raw_dir: Path, db_path: Path, on_step=None) -> dict:
+    """on_step(i, ชื่อขั้น) ใช้แสดงแถบความคืบหน้าบนหน้าเว็บ"""
+    summary = run_all.run(raw_dir=raw_dir, db_path=db_path, on_step=on_step)
     clear_caches()
+    return summary
 
 
 def clear_caches() -> None:

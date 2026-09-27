@@ -20,6 +20,7 @@
 
 from __future__ import annotations
 
+import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -551,6 +552,7 @@ def run_clean(save: bool = True, ext: dict | None = None) -> dict:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")   # พิมพ์ภาษาไทยได้แม้ส่งผลลัพธ์ไปไฟล์หรือ pipe บน Windows
     res = run_clean()
     pd.set_option("display.width", 220)
     pd.set_option("display.max_colwidth", 50)

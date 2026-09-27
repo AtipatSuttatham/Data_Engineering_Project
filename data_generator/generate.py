@@ -14,6 +14,7 @@
 
 from __future__ import annotations
 
+import sys
 import json
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -751,4 +752,5 @@ def main(out_root: Path = ROOT, verbose: bool = True) -> dict:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")   # พิมพ์ภาษาไทยได้แม้ส่งผลลัพธ์ไปไฟล์หรือ pipe บน Windows
     main()

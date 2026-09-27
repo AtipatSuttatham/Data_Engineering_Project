@@ -41,12 +41,14 @@
 ## 4. เครื่องมือและสภาพแวดล้อม
 
 - **Python 3.13** เรียกด้วย `py -3.13` (เครื่องนี้มี Python 3.11 ด้วย แต่ไม่มี pandas)
-- ไลบรารี: pandas, numpy, scikit-learn, scipy, matplotlib, seaborn, plotly, streamlit, openpyxl, sqlite3 (มากับ Python), pytest
+- ไลบรารี: pandas, numpy, scikit-learn, plotly, streamlit, openpyxl, sqlite3 (มากับ Python), pytest (ล็อกเวอร์ชันแบบ `==` ใน `requirements.txt` ทดสอบกับ Python 3.13 และ 3.11)
 - **ห้ามเพิ่มไลบรารีใหม่โดยไม่ขออนุญาต** ถ้าเพิ่มต้องอัปเดต `requirements.txt`
-- คำสั่งหลัก (จะใช้ได้เมื่อสร้างโมดูลเสร็จ):
+- คำสั่งหลัก:
   - สร้างข้อมูล: `py -3.13 data_generator/generate.py`
   - รันแอป: `py -3.13 -m streamlit run app.py`
+  - รัน pipeline ทุกขั้น: `py -3.13 -m pipeline.run_all` (เพิ่ม `--regenerate` เพื่อสร้างข้อมูลดิบใหม่ก่อน)
   - ทดสอบ: `py -3.13 -m pytest tests`
+  - สร้างไฟล์ส่งงาน (หลัง commit แล้ว): `py -3.13 scripts/make_submission.py --name "ชื่อกลุ่ม"` → `dist/ชื่อกลุ่ม.zip`
 
 ## 5. โครงสร้างโค้ดและลำดับโมดูล
 
@@ -65,10 +67,12 @@ data engineering project/          ← root ของ git repo
 │   ├── transform.py               [โมดูล 5] enrichment, สร้างคอลัมน์ใหม่, discretization, encoding, normalization, anonymization, aggregation
 │   ├── load.py                    [โมดูล 6] โหลดเข้า SQLite + ตรวจสอบหลังโหลด
 │   ├── recommend.py               [โมดูล 7] Recommendation
-│   └── forecast.py                [โมดูล 8] Regression
+│   ├── forecast.py                [โมดูล 8] Regression
+│   └── run_all.py                 [โมดูล 10] รันทุกขั้นด้วยคำสั่งเดียว (หน้าเว็บก็เรียกตัวนี้)
 ├── app.py                         [โมดูล 9] หน้าเว็บ Streamlit: ตั้งค่า + แถบด้านซ้าย + เมนู
 ├── webapp/                        [โมดูล 9] data.py (ดึงข้อมูล + cache), charts.py (กราฟ), pages/ (9 หน้า)
 ├── evaluation/                    วัดความแม่นของ pipeline เทียบกับเฉลย (อ่าน data/generator_log/ ได้ แยกจาก pipeline)
+├── scripts/make_submission.py     [โมดูล 10] สร้าง zip ส่งงาน (git archive + ฐานข้อมูล + ตรวจไฟล์)
 ├── tests/                         pytest แบบเบา (เขียนคู่กับแต่ละโมดูล)
 ├── docs/
 │   ├── data_issues.md             รายการปัญหาที่ใส่ในข้อมูล (จากโมดูล 1)

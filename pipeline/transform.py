@@ -18,6 +18,7 @@
 
 from __future__ import annotations
 
+import sys
 import hashlib
 from pathlib import Path
 
@@ -331,6 +332,7 @@ def run_transform(save: bool = True, cleaned: dict | None = None) -> dict:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")   # พิมพ์ภาษาไทยได้แม้ส่งผลลัพธ์ไปไฟล์หรือ pipe บน Windows
     res = run_transform()
     pd.set_option("display.width", 200)
     print("=== ตารางที่ได้ ===")

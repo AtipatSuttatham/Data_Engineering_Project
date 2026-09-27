@@ -37,5 +37,6 @@ def evaluate(res: dict | None = None) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")   # พิมพ์ภาษาไทยได้แม้ส่งผลลัพธ์ไปไฟล์หรือ pipe บน Windows
     pd.set_option("display.width", 200)
     print(evaluate().to_string(index=False))

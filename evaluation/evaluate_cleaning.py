@@ -7,6 +7,7 @@
 
 from __future__ import annotations
 
+import sys
 import json
 from pathlib import Path
 
@@ -139,6 +140,7 @@ def evaluate(res: dict | None = None) -> dict:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")   # พิมพ์ภาษาไทยได้แม้ส่งผลลัพธ์ไปไฟล์หรือ pipe บน Windows
     pd.set_option("display.width", 200)
     r = evaluate()
     for name, title in [("rows", "แถวที่ตัดออก"), ("fixes", "ความแม่นของการแก้ / เติมค่า"),

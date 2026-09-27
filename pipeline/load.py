@@ -16,6 +16,7 @@
 
 from __future__ import annotations
 
+import sys
 import sqlite3
 import time
 from contextlib import closing
@@ -467,6 +468,7 @@ def run_load(transformed: dict | None = None, db_path: Path = DB_PATH) -> dict:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")   # พิมพ์ภาษาไทยได้แม้ส่งผลลัพธ์ไปไฟล์หรือ pipe บน Windows
     pd.set_option("display.width", 200)
     pd.set_option("display.max_colwidth", 60)
     res = run_load()

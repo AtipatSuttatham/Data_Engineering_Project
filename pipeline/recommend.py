@@ -19,6 +19,7 @@
 
 from __future__ import annotations
 
+import sys
 from contextlib import closing
 from pathlib import Path
 
@@ -249,6 +250,7 @@ def run_recommend(db_path: Path = load.DB_PATH, save: bool = True) -> dict:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")   # พิมพ์ภาษาไทยได้แม้ส่งผลลัพธ์ไปไฟล์หรือ pipe บน Windows
     pd.set_option("display.width", 200)
     res = run_recommend()
     names = load.read_table("dim_product").set_index("product_id")["name_th"]

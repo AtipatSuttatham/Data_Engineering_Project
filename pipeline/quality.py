@@ -20,6 +20,7 @@
 
 from __future__ import annotations
 
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
@@ -446,6 +447,7 @@ def _pct(x) -> str:
 
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")   # พิมพ์ภาษาไทยได้แม้ส่งผลลัพธ์ไปไฟล์หรือ pipe บน Windows
     res, _ = run_quality()
     pd.set_option("display.width", 220)
     pd.set_option("display.max_colwidth", 60)
